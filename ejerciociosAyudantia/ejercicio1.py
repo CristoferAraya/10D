@@ -6,7 +6,6 @@ def mostrar_menu():
 
 
 
-
 def imprimir_tareas(lista_tarea):
     if len(lista_tarea) == 0:
         print("No hay tareas")
