@@ -1,0 +1,1 @@
+def buscar_juego(catalogo, nombre_buscado):
