@@ -21,23 +21,15 @@ carrito_compras = []
 biblioteca_juegos = []
 
 
-def mostrar_menu():
-    while True:
-     print("1: Ver Catálogo de Tienda")
-     print("2: Agregar juego al Carrito")
-     print("3: Ver mi Carrito")
-     print("4: Cargar fondos a la Cartera")
-     print("5: Pagar Carrito")
-     print("6: Ver mi Biblioteca")
-     print("7: Salir")
-     try:
-        op= int(input("Seleccione una opcion"))
-     except ValueError:
-        print("Favor ingresar un numero velido")
+print("Tienda Steam")
+nombre_usuario = input("Ingresa tu ombre: ").strip()
+saldo_cartera = 0
 
-     if op == 1:
-       fn.buscar_juego(catalogo, nombre_buscado):
-       buscando_juego = int(input("Ingrese nombre del juego",[catalogo_steam]))
-       buscando_juego 
+while True:
+    print(f"\nusuario: {nombre_usuario} | Cartera: $ {saldo_cartera}")
+    fn.mostrar_menu()
+    opcion = input("")
+
+   
       
        
